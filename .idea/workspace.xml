@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57cc9e39-2c62-44a9-912f-c4cce581db02" name="Changes" comment="Add Systembolaget test" />
+    <list default="true" id="57cc9e39-2c62-44a9-912f-c4cce581db02" name="Changes" comment="Add Systembolaget test">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/nick/Systembolaget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/nick/Systembolaget.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +187,7 @@
       <workItem from="1713806851753" duration="89000" />
       <workItem from="1713806951724" duration="1449000" />
       <workItem from="1713808442629" duration="2301000" />
-      <workItem from="1713813379803" duration="11308000" />
+      <workItem from="1713813379803" duration="11474000" />
     </task>
     <task id="LOCAL-00001" summary="Basic calculator">
       <option name="closed" value="true" />
@@ -219,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713875695621</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Systembolaget test">
+      <option name="closed" value="true" />
+      <created>1713875787187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713875787187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
