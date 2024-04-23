@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57cc9e39-2c62-44a9-912f-c4cce581db02" name="Changes" comment="Basic calculator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/nick/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/nick/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/calculatorTest/nick/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/calculatorTest/nick/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="57cc9e39-2c62-44a9-912f-c4cce581db02" name="Changes" comment="Add Systembolaget test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +51,8 @@
     "JUnit.CalculatorTest.TestDivision.executor": "Run",
     "JUnit.CalculatorTest.TestSquareRoot.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.SystembolagetTest.executor": "Run",
+    "JUnit.SystembolagetTest.givenTooYoungAgeWithoutAdult_WhenAskingToEnterTheSystembolaget_ThenReturnFalse.executor": "Run",
     "Maven.Calculator [-V].executor": "Run",
     "Maven.Calculator [clean].executor": "Run",
     "Maven.Calculator [install].executor": "Run",
@@ -79,7 +77,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.SystembolagetTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
@@ -127,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.TestDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystembolagetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +134,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.calculatorTest.nick" />
-      <option name="MAIN_CLASS_NAME" value="com.calculatorTest.nick.CalculatorTest" />
-      <option name="METHOD_NAME" value="TestDivision" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.calculatorTest.nick.SystembolagetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.TestSquareRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystembolagetTest.givenTooYoungAgeWithoutAdult_WhenAskingToEnterTheSystembolaget_ThenReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +149,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.calculatorTest.nick" />
-      <option name="MAIN_CLASS_NAME" value="com.calculatorTest.nick.CalculatorTest" />
-      <option name="METHOD_NAME" value="TestSquareRoot" />
+      <option name="MAIN_CLASS_NAME" value="com.calculatorTest.nick.SystembolagetTest" />
+      <option name="METHOD_NAME" value="givenTooYoungAgeWithoutAdult_WhenAskingToEnterTheSystembolaget_ThenReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SystembolagetTest" />
+        <item itemvalue="JUnit.SystembolagetTest.givenTooYoungAgeWithoutAdult_WhenAskingToEnterTheSystembolaget_ThenReturnFalse" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.TestArea" />
         <item itemvalue="JUnit.CalculatorTest.TestCircumference" />
-        <item itemvalue="JUnit.CalculatorTest.TestSquareRoot" />
-        <item itemvalue="JUnit.CalculatorTest.TestDivision" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,7 @@
       <workItem from="1713806851753" duration="89000" />
       <workItem from="1713806951724" duration="1449000" />
       <workItem from="1713808442629" duration="2301000" />
-      <workItem from="1713813379803" duration="9199000" />
+      <workItem from="1713813379803" duration="11308000" />
     </task>
     <task id="LOCAL-00001" summary="Basic calculator">
       <option name="closed" value="true" />
@@ -206,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713854386498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final">
+      <option name="closed" value="true" />
+      <created>1713873761403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713873761403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Systembolaget test">
+      <option name="closed" value="true" />
+      <created>1713875695621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713875695621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic calculator" />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Add Systembolaget test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Systembolaget test" />
   </component>
 </project>
